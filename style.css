@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(26, 29, 41);
+    font-family: 'Roboto', sans-serif;
+}
+
+.topContainer {
+    padding: 15px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#divPasswordContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#divContainers {
+    display: flex;
+}
+
+.inputContainers {
+    height: 76px;
+    width: 54px;
+    background-color: #31343e;
+    margin-right: 1rem;
+    padding: 0.25rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    width: 20px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    outline: none;
+    caret-color: transparent;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.wrongPassword {
+    border: 1px solid #ff554c;
+}
+
+input:focus {
+    border-bottom: 2px solid #02e7f5;
+}
+
+.selectedContainer {
+    border: 1px solid white;
+}
+
+.imgContainerLogo {
+    cursor: pointer;
+}
+
+#avatars {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.avatarIcon {
+    margin: 60px 18px 20px 18px;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    cursor: pointer;
+}
+
+.avatarName {
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.borderSelected {
+    border-color: rgba(249, 249, 249, 0.8);
+    transform: scale(1.1);
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.middleContainer {
+    font-size: 2em;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.bottomContainer {
+    font-size: 2em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.imgContainer {
+    width: 80px;
+    height: 40px;
+}
+
+.button {
+    background-color:rgb(75, 78, 90);
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.05em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lockpadIcon {
+    width: 20px;
+    height: 20px;
+    margin: 18px auto;
+    user-select: none;
+}
+
+.visibleContainer {
+    display: block;
+}
+
+.hideContainer {
+    display: none !important;
+}
